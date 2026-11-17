@@ -34,7 +34,7 @@
 import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth";
 import Navbar from '../components//Navbar.vue'
 import { useUserStore } from "../stores/user";
-const APP_URL = "http://localhost:5173"; // Update this to your actual app URL
+const APP_URL = "https://isqa-4900-activity-4-firebase-app-k.vercel.app/"; // Update this to your actual app URL
 export default {
     name: 'Login',
     components: {
